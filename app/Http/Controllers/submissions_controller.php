@@ -20,7 +20,7 @@ class submissions_controller extends Controller
             'message' => 'required' 
         ]);
 
-        //ZeeN
+        //ZeeNN
 
         $submission = new submissions;
         $submission->name = $request->input('name');
