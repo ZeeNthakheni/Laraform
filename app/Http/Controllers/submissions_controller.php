@@ -20,6 +20,8 @@ class submissions_controller extends Controller
             'message' => 'required' 
         ]);
 
+        //Zee
+
         $submission = new submissions;
         $submission->name = $request->input('name');
         $submission->email = $request->input('email');
