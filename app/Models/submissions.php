@@ -10,6 +10,13 @@ use Database\Factories\SubmissionsFactory;
 class submissions extends Model
 {
     use HasFactory;
+    
+    protected $fillable = [
+        'name',
+        'email',
+        'message',
+    ];
+    
     protected static function newFactory(): Factory
     {
         return SubmissionsFactory::new();
